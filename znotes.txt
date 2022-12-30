@@ -1,6 +1,4 @@
-
-
-/*GIVEN I am taking a code quiz
+GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
 WHEN I answer a question
@@ -12,4 +10,13 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
-```*/
+```
+
+how to div the html 
+
+it will be 2 boxs 
+
+on the one it will display the quiz and the other one it will display the 
+time and the last scored 
+
+-study flex-grow shrink basis

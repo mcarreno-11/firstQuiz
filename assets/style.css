@@ -29,46 +29,48 @@ body {
 }
 
 .game-container {
-    margin: 5px;
-    border: 1px solid purple;
-    height: 375px;
-    display: flex;
+    margin-left: 5px;
+    border: solid 1px purple;
+    display: inline-flex;
     flex-direction: column;
     flex-grow: 2;
+    height: inherit;
+    align-items: center;
 }
 
 .display-question {
-    border: solid 1px blue;
-    flex-grow: 1;
+    border: solid 1px red;
+    flex-grow: .5;
+    text-align: center;
+    width: 100%;
 }
 
 .display-choices {
-    border: solid 1px green;
-    flex-grow: 3;
-
+    border: solid 1px blue;
+    flex-grow: 2;
+    width: 100%;
 }
-
-.click-btn {
-    border: 1px solid red;
-    
-}
-
 
 .display-container {
-    display: flex;
     margin: 5px;
-    border: 1px solid black;
-    height: 375px; 
-    flex-direction: column;
+    border: solid 1px red;
     flex-grow: 1;
+    height: inherit;
 }
 
 .timer {
-    border: solid 1px red;
-    flex-grow: 1;
+    border: solid green 1px;
+    height: fit-content;
+   
+    text-align: justify;
+    
 }
 
 .score-keeper {
-    border: solid 1px blue;
-    flex-grow: 5;
+    border: solid blue 1px;
+    height: 70%;
+    overflow: scroll;
+    text-align: center;
 }
+
+
